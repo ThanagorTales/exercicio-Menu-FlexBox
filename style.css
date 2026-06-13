@@ -23,16 +23,14 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header h1{
-    border: 1px dotted black;
-    flex: 0 0 200px
+header > h1{
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 nav{
-    border: 1px dotted black;
-
     display: flex;
     flex-flow: row wrap;
-    
+
 }
 nav > a{
     background-color: black;
@@ -55,3 +53,4 @@ main{
     border-radius: 1em;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
 }
+
